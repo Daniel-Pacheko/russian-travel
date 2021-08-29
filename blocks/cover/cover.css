@@ -1,0 +1,24 @@
+.cover {
+    max-width: calc(100% - 48px*2);
+    background-image: url(../../images/__background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    margin: auto;
+}
+
+.cover::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    padding-top: 62.6%;
+}
+
+@media all and (max-width: 1024px) {
+    .cover {
+        max-width: 100%;
+    }
+}

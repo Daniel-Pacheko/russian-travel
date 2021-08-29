@@ -1,0 +1,30 @@
+.intro {
+    color: white;
+    max-width: 690px;
+    position: relative;
+    padding-left: 148px;
+    padding-top: 92px;
+}
+
+@media all and (max-width: 1024px) {
+    .intro {
+        padding-left: 48px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+        padding-left: 24px;
+        padding-top: 88px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .intro {
+        max-width: 288px;
+        padding-left: 0;
+        margin: auto;
+        padding-top: 64px;
+    }
+}
