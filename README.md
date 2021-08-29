@@ -5,6 +5,6 @@
 В проекте  рассказывается про интересные места России.
 
 Так же в проекте были реализована изменения при наведении и многое другое.
-* [Ссылка на сайт](https://daniel-pacheko.github.io/russian-travel/index.html)
+*[Ссылка на сайт](https://daniel-pacheko.github.io/russian-travel/index.html)
 
 Приятного просмотра!
