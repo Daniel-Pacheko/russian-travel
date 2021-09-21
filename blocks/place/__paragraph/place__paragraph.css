@@ -5,26 +5,26 @@
     font-size: 18px;
     order: 3;
     align-self: start;
-    max-width: 484px;
+    max-width: 100%;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 1279px) {
     .place__paragraph {
-        max-width: 456px;
+        max-width: 100%;
     }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 1023px) {
     .place__paragraph {
         line-height: 26px;
         font-size: 16px;
-        max-width: 352px;
+        max-width: 100%;
     }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 767px) {
     .place__paragraph {
-        max-width: 288px;
-        margin: 32px auto 0;
+        max-width: 100%;
+        margin: 32px 16px 0;
     }
 }
