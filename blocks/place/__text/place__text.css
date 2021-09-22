@@ -1,14 +1,15 @@
 .place__text {
-    width: 100%;
-    margin: 0;
-    margin-bottom: 26px;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 26px;
 }
-.place__text:last-child{
-    margin-bottom: 0;
-  }
 
-  @media all and (max-width: 1023px) {
-    .place__text {
-        margin-bottom: 25px;
-    }
+.place__text:last-child {
+  margin-bottom: 0;
+}
+
+@media all and (max-width: 1023px) {
+  .place__text {
+    margin-bottom: 25px;
   }
+}
